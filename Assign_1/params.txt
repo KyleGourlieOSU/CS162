@@ -1,0 +1,11 @@
+1994 Toyota 4Runner 3400 0.40 3 petrol I4 2.4 105 140 manual 5
+2003 Chevy Malibu 3000 0.3 2.5 petrol V6 3.1 190 170 auto 4
+2011 Toyota Prius 3000 0.25 2.5 hybrid I4 1.8 134 105 belt 0
+2005 Chevy Silverado 7000 0.38 4 diesel v8 6.6 310 520 auto 6
+2003 Subaru Forester 3000 0.3 4 petrol B4 2.1 100 100 manual 6
+2003 Subaru Forester 3000 0.3 4 petrol B4 2.1 100 hundred manual six
+2003 Subaru Forester 3000 0.3 4 petrol B4 2.1 hundred hundred manual six
+2003 Subaru Forester 3000 0.3 4 petrol B4 two point four hundred hundred manual six
+2003 Subaru Forester 3000 0.3 4 petrol B4 two_point_four hundred hundred manual six
+2003 Subaru Forester 3000 0.3 4 petrol Boxer_four two_point_four hundred hundred manual six
+2003 Subaru Forester 3000 0.3 4 petrol Boxer_four two_point_four hundred hundred manual six

@@ -1,0 +1,43 @@
+Project #2
+
+1) One way to implement reading and writing files is to have all the attributes required for the creation of the vehicle class placed onto 
+a textfile or a csv file. Then when a class is created, it parses through the textfile, grabs the needed information, and then creates the 
+object. To save the class object, I could either write all the needed attributes onto a separate text file, or Pickle the object. Pickling 
+would be benefical because when the object needed to be re-uploaded, the object would just need to be un-pickled, rather than having to read
+each attribute and creating a new object. Personally, I have not learned how to pickle Python objects, but it would be a useful tool for me
+to learn.
+
+2) I think the way Try and Except clauses work in Python is that when you have a block of code that you want to run, but prevent it from 
+crashing when exceptions occur, then you want to use Try and Except clauses. Within the Try clause, you place the block of code that you 
+want to get checked for any exceptions occuring. Within the Except clause, you place any code that you want to be ran when an exception 
+occurs. Since there are different types of exceptions, you can specify multiple types of exceptions that you want caught. You can also
+use a general Exception where if any Exception occurs, it is caught. Tied to Try and Except clauses is the optional Finally clause. No 
+matter what, any code found in the Finally clause is ran. 
+
+3) My code used for assignment #1 already uses methods, and functions to create instances of class objects. 
+
+4) Some tests that I would design is a Python file that tests the Project_1.py script. The test script would also have a text file with 
+a list of parameters used for the test. This would allow a systematic test of each allowed and not allowed parameter for each instance of
+the class. Postive tests would used proper parameter types and negative tests would choose a single incorrect parameter each time until all
+of the parameters are incorrect types. 
+
+5) The test script that I designed reads a textfile containing all the parameters required for the creation of a Vehicle object. For the 
+test, I imported the Vehicle class function and looped over creating instances of the class by reading parameters from the textfile. The
+only exceptions that occured are ValueError exceptions. This is because some parameters must be float values in order to do numerical 
+calculations. I included incorrect parameter types in order to see if they would be caught by this single exception. They all were.
+
+6) I attempted to implement fileI/O to the script project_1_marce.py. I was very close to making it work, but it was not successful. I could
+make it work if I rewrite alot of the script, but it would defeat the purpose. The script made characters for a video game and
+what I attempted was all the parameters needed for the object contained in the textfile. The text file was read and the proper
+parameters onto the initialized object.
+
+7) For their program, there is not a lot of room to add any additional methods or functions to the script. The class object only initializes
+parameters and then displays the full stats of the character. I could add a method where two characters could fight each other and 
+the method would tell you the winner based on the attributes of each character. 
+
+8) Since the program only initializes values, there are no tests that I could implement, playing with the input values for the script. There 
+are no input checks for the inputs, so any input can work. This means the code would not break. 
+
+9) If I were to run pydocstyle onto the script, many errors would appear. This is because there is hardly any docstrings for the methods,
+functions, and classes of the script. 
+

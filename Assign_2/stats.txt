@@ -1,0 +1,33 @@
+playername: Kyle
+level: 5
+vigor: not very
+mind: 6
+endurance: 1
+strength: 5
+dexterity: 2
+intelligence: 10
+faith: none
+arcane: none
+-----
+playername: Bobby
+level: 4
+vigor: none
+mind: 2
+endurance: none
+strength: some
+dexterity: not
+intelligence: 2
+faith: none
+arcane: none
+-----
+playername: Jeff
+level: 58
+vigor: 10
+mind: 8
+endurance: none
+strength: some
+dexterity: not
+intelligence: 2
+faith: none
+arcane: some
+-----
