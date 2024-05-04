@@ -1,0 +1,43 @@
+1) A set of data is some sort of array of strings, integers, floats, objects, etc, that contain information about something physical/virtual in 
+the real world. This set of data is related to a physical or virtual description. If the dataset is numerical values, it can be important
+to organize the data in a way that is more understandable to us humans. An example of this is a graphical representation of the data with 
+emphasis on what datasets are the independent variables and what datasets are dependent variables. From experience, heavy data analysis in 
+Python can be very slow if using native Python objects. Using Numpy Array objects that utilize CBLAS is much more efficient and less 
+computationally expensive. When I think of a dataset, I immediately think of some sort of Numpy Array or a Python list. To add complexity, 
+there can be lists among lists adding more dimensionality to the dataset. This can be from a 1D array to a matrix, to a rank-3 tensor, 
+and so forth. An example of a dataset that someone would value, specifically astronomers, would be the apparent location of nearby stars in
+the sky. If I were to find some useful information in this particular dataset, I need a way to organize and parse through the data to grab the information that I need. For example, if I wanted a specific star's apparent celestial coordinates in the Sky, I need to first
+just grab only the celestial coordinates. In large astrometric catalogs such as GAIA, there are dozens of parameters for a single star and 
+multiple datasets on a single star. So not only do you want only a specific piece of information, but you want to select the most precise
+data. This means looking at the errors tied to the measured data and using such a parameter to filter the data. Ways of ordering data that
+would make it easier to parse through is a well-structured dataset. There are many ways to organize data, but datasets are complex so you
+need a way to organize the data in a manner that is easy to understand and easy to parse through. Back to the stars example, one way to 
+organize the data is for every star cataloged, there is a callable table of data in which you can simply index into that particular row to
+get the data that you want. When I was trying to create a numerical simulation of a charged cube and had to numerically calculate 
+the voltage in space, I had to organize the locations in space between space within the cube, space on the cube, and space outside of the 
+cube through masks. This organization of my datasets of position and voltage allowed me to visualize the voltage across space, and see the 
+boundary of my object. 
+
+2) The GUI that I submitted for project #3 includes buttons, text boxes, and labels where multiple interactions are occurring and data
+being displayed on the GUI. When you select a textbox to input information, that information is directly updated onto the GUI. 
+
+3) For my GUI, I am using PyQt. The buttons that I am using in my GUI are PySide6.QtWidgets.QPushButton objects. One of the methods of 
+these buttons is .clicked.connect(). Within the brackets, you place a function call so that when the button is pushed, then the Program runs
+the function. Such functionality is already incorporated into project #3. 
+
+4) There are ways to automatically test some of the graphical objects being used in the GUI. A very basic example would be triggering one
+of the buttons to be pressed by setting the .clicked.connect() to always be true. This would simulate the press of a button, while not 
+having to interact with the GUI by hand. 
+
+5) This portion of the assignment is labeled under project_4_test.PyQt
+
+6) For this portion of the assignment, I altered my timecard to where the entries of the numbers occur within the Job # and Phase boxes. 
+If ten numbers are entered as inputs, then the smallest number will be displayed. Note that all ten entries must be numbers to
+display the smallest number. 
+
+7) When the next smallest number button is pushed, all the numbers are iterated through until there is only one number left. 
+
+8) I used the same pytests as in question #5
+
+On another note, if you want to test the project, run main.py
+
